@@ -1,0 +1,30 @@
+﻿@model IEnumerable<PulseAssignment.Models.ImageFile>
+<table id="example" class="table table-striped table-bordered nowrap" style="width:100%">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Image Name</th>
+            <th>Converted Date</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImageName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateConverted)
+                </td>
+                <td>
+                    <a download="@item.ImageName" href="@Url.Content("/Home/DisplayingImage/"+item.Id+"")" target="_blank">Download</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
