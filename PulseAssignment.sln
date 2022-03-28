@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PulseAssignment", "PulseAssignment\PulseAssignment.csproj", "{FF271C7E-5ACD-470F-8692-F729BC986D4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF271C7E-5ACD-470F-8692-F729BC986D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF271C7E-5ACD-470F-8692-F729BC986D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF271C7E-5ACD-470F-8692-F729BC986D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF271C7E-5ACD-470F-8692-F729BC986D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {862816E0-7FF0-42CB-B847-D171CF56C8F0}
+	EndGlobalSection
+EndGlobal
